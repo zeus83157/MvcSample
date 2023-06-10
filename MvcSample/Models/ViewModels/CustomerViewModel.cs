@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MvcSample.Services.Models
+﻿namespace MvcSample.Models.ViewModels
 {
-    public class CustomersModel
+    public class CustomerViewModel
     {
         public Guid Custid { get; set; }
         public string Custnm { get; set; }

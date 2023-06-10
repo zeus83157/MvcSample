@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace MvcSample.Repositories
 {
-    internal class CustomersRepository : ICustomersRepository
+    public class CustomersRepository : ICustomersRepository
     {
         private readonly CustomerInfoContext _Context;
-        internal CustomersRepository(CustomerInfoContext context)
+        public CustomersRepository(CustomerInfoContext context)
         {
             _Context = context;
         }

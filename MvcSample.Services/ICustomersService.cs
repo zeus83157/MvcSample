@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MvcSample.Services
 {
-    internal interface ICustomersService
+    public interface ICustomersService
     {
         List<CustomersModel> GetAll();
         bool AddCustomer(CustomersModel model);

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvcSample.Services
 {
-    internal class CustomersService : ICustomersService
+    public class CustomersService : ICustomersService
     {
         private readonly ICustomersRepository _customersRepository;
 
