@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MvcSample.Repositories
 {
-    internal interface ICustomersRepository
+    public interface ICustomersRepository
     {
         List<CustomersData> GetAll();
         bool Insert(CustomersData data);

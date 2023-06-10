@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvcSample.Repositories.Models
+namespace MvcSample.Services.Models
 {
-    public class CustomersData
+    internal class CustomersModel
     {
         public Guid Custid { get; set; }
         public string Custnm { get; set; }
