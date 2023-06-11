@@ -1,0 +1,32 @@
+﻿@model MvcSample.Models.ViewModels.CustomerViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form asp-action="Create">
+    <div class="container">
+        <div class="input-group mb-3">
+            <span class="input-group-text">姓名</span>
+            <input asp-for="Custnm" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="input-group mb-3">
+            <span class="input-group-text">電話</span>
+            <input asp-for="Contactnum" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="input-group mb-3">
+            <span class="input-group-text">ID </span>
+            <input asp-for="Perosnalid" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+
+    <div class="container">
+        <input type="submit" value="新增" />
+    </div>
+</form>
